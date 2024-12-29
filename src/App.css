@@ -1,0 +1,43 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+}
+
+.toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.color-picker {
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.editor {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  min-height: 200px;
+  text-align: left;
+  background-color: #f9f9f9;
+}
